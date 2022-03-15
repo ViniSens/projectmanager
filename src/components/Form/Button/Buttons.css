@@ -1,0 +1,17 @@
+.div-reset{
+    float: left;
+}
+
+.div-submit{
+    float: right;
+}
+
+.btn-submit{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.btn-reset{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}

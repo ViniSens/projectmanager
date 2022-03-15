@@ -1,0 +1,22 @@
+.newproject-container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.newproject-container p{
+    color: #7b7b7b;
+    font-size: medium;
+}
+
+.newproject-container h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card{
+    border-radius: 10px !important;
+    box-shadow: 5px 5px 10px black;
+}
+
+

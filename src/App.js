@@ -1,6 +1,5 @@
-import {BrowserRouter as Router,Routes,Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
-import './App.css';
 import Container from './components/layout/Container';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
