@@ -1,8 +1,8 @@
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
-import Container from './components/layout/Container';
-import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
+import Container from './components/layout/Container/Container';
+import NavBar from './components/layout/NavBar/NavBar';
+import Footer from './components/layout/Footer/Footer';
 import Company from './pages/Company/Company';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';

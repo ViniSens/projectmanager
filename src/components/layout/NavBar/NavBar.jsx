@@ -1,11 +1,11 @@
 
 import {Link} from 'react-router-dom'
-import logo from "../../imgs/folder.png"
-import Company from '../../pages/Company/Company';
-import Contact from '../../pages/Contact/Contact';
-import Home from '../../pages/Home/Home';
-import Project from '../../pages/Project/Project';
-import Container from '../layout/Container';
+import logo from "../../../imgs/folder.png"
+import Company from '../../../pages/Company/Company';
+import Contact from '../../../pages/Contact/Contact';
+import Home from '../../../pages/Home/Home';
+import Project from '../../../pages/Project/Project';
+import Container from '../Container/Container';
 import './NavBar.css'
 
 

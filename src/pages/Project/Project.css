@@ -1,0 +1,16 @@
+.project-container{
+    padding: 2em;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.title-container h1{
+    font-weight: bold;
+}

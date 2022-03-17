@@ -9,8 +9,9 @@
 .min-height{
     min-height: 75%;
 }
-.start{
-    justify-content: flex-start;
+
+.project{
+    justify-content: space-around;
 }
 
 .column{

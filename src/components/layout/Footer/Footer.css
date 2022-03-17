@@ -1,8 +1,9 @@
 .footer{
     background-color: #222;
     color: #fff;
-    padding: 0.9em;
+    padding: 1em;
     text-align: center;
+    display: block;
 }
 
 .list-social{
