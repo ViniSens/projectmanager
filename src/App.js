@@ -10,6 +10,7 @@ import NewProject from './pages/NewProject/NewProject';
 import Project from './pages/Project/Project';
 import EditProject from './pages/EditProject/EditProject';
 import Services from './pages/Services/Services';
+import NewServices from './pages/Services/NewServices/NewServices';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/newproject"  element={<NewProject/>}></Route>
             <Route path="/editproject/:id"  element={<EditProject/>}></Route>
             <Route path="/services/:id"  element={<Services/>}></Route>
+            <Route path="/newservices/:id"  element={<NewServices/>}></Route>
         </Routes>
         </Container>
       

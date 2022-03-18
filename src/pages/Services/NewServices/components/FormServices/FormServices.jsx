@@ -1,39 +1,26 @@
 import "./FormServices.css"
 import {useParams} from 'react-router-dom';
 import { useState } from "react";
-import { useEffect } from "react";
-import Input from "../../../../components/Form/Input/Input";
-import Buttons from "../../../../components/Form/Button/Buttons";
-import TextArea from "../../../../components/Form/TextArea/TextArea";
+import Input from "../../../../../components/Form/Input/Input";
+import Buttons from "../../../../../components/Form/Button/Buttons";
+import TextArea from "../../../../../components/Form/TextArea/TextArea";
 
 
 function FormServices({handleSubmit,projectData, nameSubmit, nameClear}) {
 
     const {id} = useParams();
-    const [project,setProject] = useState(projectData || {});
+    const [service,setService] =useState({})
 
-    useEffect(()=>{
-        setTimeout(()=>{
-            fetch(`http://localhost:5000/projects/${id}`,{
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        })
-        .then(resp => resp.json())
-        .then((data)=>{setProject(data)})
-        .catch(err=> console.log(err))
-        }, 400)
-    }, [])
+    
 
-    const submit=(e)=>{
-        e.preventDefault();
-      //  console.log(project)
-        handleSubmit(project);
+    function submit(e){
+        e.preventDefault()
+        projectData.services.push(service)
+        handleSubmit(projectData)
     }
 
     function handleChange (e){
-
+        setService({...service, [e.target.name]: e.target.value})
     }
 
     return (  

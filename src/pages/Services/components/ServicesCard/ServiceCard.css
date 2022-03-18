@@ -1,0 +1,60 @@
+.project-card{
+    padding: 1em;
+    margin: 0.5%;
+}
+
+.project-card h4{
+    white-space: initial;
+    padding: .4em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.project-card p {
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.project-card p span{
+    font-weight: bold;
+}
+
+.project-card-actions{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.project-card-actions a, .project-card-actions button{
+    text-decoration: none;
+    background-color: #fff;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 0.85em;
+    cursor: pointer;
+    margin-right: 1em;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.project-card-actions svg{
+    margin-right: .5em;
+}
+
+.project-card-actions a:hover, .project-card-actions button:hover{
+    background-color: #222;
+    color: #ffbb33;
+}
+
+.card{
+    border-radius: 10px !important;
+    box-shadow: 5px 5px 10px black;
+    
+}

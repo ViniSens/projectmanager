@@ -7,20 +7,9 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
+      "cost": 1,
       "services": [],
       "id": 12
-    },
-    {
-      "name": "Projeto Desenvolvimento Marcus",
-      "budget": "95000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 13
     },
     {
       "name": "Projeto Teste",
@@ -29,8 +18,27 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 608,
+      "services": [
+        {
+          "name": "Gerente",
+          "cost": "400",
+          "description": "Contratar um gerente",
+          "id": "08858c33-6ef4-475b-aee2-6051a49cd9c8"
+        },
+        {
+          "name": "teste",
+          "cost": "100",
+          "description": "teste",
+          "id": "17b4348f-7a07-44f8-a226-ad74727eca4e"
+        },
+        {
+          "name": "teste",
+          "cost": "100",
+          "description": "teste",
+          "id": "a3d388a0-a843-4bfa-886e-b7e6f01dc2b6"
+        }
+      ],
       "id": 14
     }
   ],

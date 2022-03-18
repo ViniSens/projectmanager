@@ -1,20 +1,17 @@
-.newservice-container{
-    width: 450px;
-    margin: 0 auto;
-    padding: 3em;
+.service-container{
+    padding: 2em;
+    width: 100%;
 }
 
-.newservice-container p{
-    color: #7b7b7b;
-    font-size: medium;
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.newservice-container h1{
-    font-size: x-large;
+.title-container h1{
     font-weight: bold;
-}
-
-.card{
-    border-radius: 10px !important;
-    box-shadow: 5px 5px 10px black;
 }
