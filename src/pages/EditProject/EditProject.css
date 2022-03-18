@@ -1,0 +1,10 @@
+.editproject-container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.card{
+    border-radius: 10px !important;
+    box-shadow: 5px 5px 10px black;
+}

@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Projeto Luciano",
-      "budget": "900",
+      "name": "Projeto Atualizado",
+      "budget": "3",
       "category": {
         "id": "3",
         "name": "Design"
@@ -13,7 +13,7 @@
     },
     {
       "name": "Projeto Desenvolvimento Marcus",
-      "budget": "123123123",
+      "budget": "95000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -23,26 +23,15 @@
       "id": 13
     },
     {
-      "name": "teste",
-      "budget": "2342341",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 14
-    },
-    {
-      "name": "Projeto Luciano",
-      "budget": "7856",
+      "name": "Projeto Teste",
+      "budget": "4500",
       "category": {
         "id": "4",
         "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
-      "id": 15
+      "id": 14
     }
   ],
   "categories": [

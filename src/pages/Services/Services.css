@@ -1,0 +1,20 @@
+.newservice-container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.newservice-container p{
+    color: #7b7b7b;
+    font-size: medium;
+}
+
+.newservice-container h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card{
+    border-radius: 10px !important;
+    box-shadow: 5px 5px 10px black;
+}

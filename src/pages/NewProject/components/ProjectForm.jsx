@@ -4,7 +4,7 @@ import Buttons from '../../../components/Form/Button/Buttons';
 import Input from '../../../components/Form/Input/Input';
 import Select from '../../../components/Form/Select/Select';
 import './ProjectForm.css'
-function ProjectForm({handleSubmit,projectData}) {
+function ProjectForm({handleSubmit,projectData, nameSubmit, nameClear}) {
 
    const [categories, setCategories] = useState([]);
 
@@ -66,7 +66,7 @@ function ProjectForm({handleSubmit,projectData}) {
                 handleOnChange={handleCategory}
                 value={project.category ? project.category.id :''}    
             />
-            <Buttons nameSubmit="Cadastrar Projeto" nameReset='Limpar'></Buttons>
+            <Buttons nameSubmit={nameSubmit} nameReset={nameClear}></Buttons>
             
         </form>
      )

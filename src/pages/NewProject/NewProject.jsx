@@ -28,7 +28,7 @@ function NewProject() {
         <Card title={<h1>Criar Projeto</h1>} className='card'>
 
             <p>Crie seu projeto para depois adicionar os serviços.</p>
-            <ProjectForm handleSubmit={createPost}/>
+            <ProjectForm handleSubmit={createPost} nameSubmit="Cadastrar Projeto" nameClear="Limpar"/>
         
         </Card>
         </div>

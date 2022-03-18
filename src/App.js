@@ -8,6 +8,8 @@ import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import NewProject from './pages/NewProject/NewProject';
 import Project from './pages/Project/Project';
+import EditProject from './pages/EditProject/EditProject';
+import Services from './pages/Services/Services';
 
 
 function App() {
@@ -23,7 +25,8 @@ function App() {
             <Route path="/company"  element={<Company/>}></Route>
             <Route path="/contact"  element={<Contact/>}></Route>
             <Route path="/newproject"  element={<NewProject/>}></Route>
-          
+            <Route path="/editproject/:id"  element={<EditProject/>}></Route>
+            <Route path="/services/:id"  element={<Services/>}></Route>
         </Routes>
         </Container>
       

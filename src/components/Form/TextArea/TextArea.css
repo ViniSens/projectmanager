@@ -1,0 +1,21 @@
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-control label{
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.form-control textarea{
+    padding: .7em;
+    border-radius: 10px !important;
+    border:  1px solid !important;
+    border-width: 2px !important;
+}
+
+.form-control textarea::placeholder{
+    color: #7b7b7b;
+}

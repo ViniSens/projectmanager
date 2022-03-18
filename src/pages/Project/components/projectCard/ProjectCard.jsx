@@ -1,5 +1,5 @@
 import "./ProjectCard.css"
-import {BsPencil, BsFillTrashFill} from "react-icons/bs"
+import {BsPencil, BsFillTrashFill, BsBriefcaseFill} from "react-icons/bs"
 import { Card } from 'antd';
 import "antd/dist/antd.css";
 import { Link } from "react-router-dom";
@@ -17,8 +17,9 @@ function ProjectCard({id,name,budget,category,handleRemove}) {
                 <p><span>Orçamento:</span> R${budget}</p>
                 <p className="category-text"><span className={`${category.toLowerCase()}`}></span>{category}</p>
                 <div className="project-card-actions">
-                    <Link to="/"><BsPencil/> Editar</Link>
+                    <Link to={`/editproject/${id}`}><BsPencil/> Editar</Link>
                     <button onClick={remove}><BsFillTrashFill/> Excluir</button>
+                    <Link to={`/services/${id}`}><BsBriefcaseFill/> Serviços</Link>
                 </div>
             </Card>
         </div>
