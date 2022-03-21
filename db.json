@@ -7,7 +7,7 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 1,
+      "cost": 0,
       "services": [],
       "id": 12
     },
@@ -18,27 +18,8 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 608,
-      "services": [
-        {
-          "name": "Gerente",
-          "cost": "400",
-          "description": "Contratar um gerente",
-          "id": "08858c33-6ef4-475b-aee2-6051a49cd9c8"
-        },
-        {
-          "name": "teste",
-          "cost": "100",
-          "description": "teste",
-          "id": "17b4348f-7a07-44f8-a226-ad74727eca4e"
-        },
-        {
-          "name": "teste",
-          "cost": "100",
-          "description": "teste",
-          "id": "a3d388a0-a843-4bfa-886e-b7e6f01dc2b6"
-        }
-      ],
+      "cost": -4516,
+      "services": [],
       "id": 14
     }
   ],
